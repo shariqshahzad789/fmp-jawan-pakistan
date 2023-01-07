@@ -1,0 +1,140 @@
+nav {
+    box-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+}
+
+@media(max-width: 786px) {
+    .header-social-icon {
+        display: none;
+    }
+
+}
+
+nav .navbar-brand {
+    color: var(--bs--orange);
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    padding: none !important;
+}
+
+.carousel-inner .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner .carousel-item::before {
+    content: '';
+    background-color: rgba(12, 11, 10, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-inner .carousel-caption {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 45%;
+    left: 0;
+    right: 0;
+}
+
+.carousel-inner .carousel-caption h2 {
+    color: #ffff;
+    /* margin-bottom: 7px; */
+    font-size: 42px;
+    font-weight: 600;
+    width: 80%;
+    margin: 0px auto 30px auto;
+}
+
+.carousel-inner .carousel-caption p {
+    font-size: 10px;
+    width: 80%;
+    margin: 0px auto 20px auto;
+}
+
+@media(max-width: 786px) {
+    .carousel-inner .carousel-caption h2 {
+        font-size: 38px;
+    }
+}
+
+@media(max-width: 577px) {
+    .carousel-inner .carousel-caption h2 {
+        font-size: 25px;
+    }
+
+    .carousel-inner .carousel-caption p {
+        font-size: 13px;
+    }
+}
+.sercices .box{
+    padding: 10px 10px;
+    box-shadow: 0px 2px 15px rgba(0, 1, 0, 0.1);
+}
+/* login */
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%);
+  }
+
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
+  /* login End */
+
+
+  .logo{
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid red; */
+  }
+  .logo .logo-para{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
